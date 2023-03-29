@@ -8,9 +8,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.example.activity.AudioRecordActivity;
-import com.example.activity.ImageEditActivity;
-import com.example.activity.MainActivity;
+import com.example.homework2rewrite.AudioRecordActivity;
+import com.example.homework2rewrite.ImageEditActivity;
+import com.example.homework2rewrite.MainActivity;
 import com.example.homework2rewrite.R;
 
 import androidx.annotation.NonNull;

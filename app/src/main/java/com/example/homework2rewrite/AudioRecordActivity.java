@@ -1,4 +1,4 @@
-package com.example.activity;
+package com.example.homework2rewrite;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -9,8 +9,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import com.example.homework2rewrite.R;
 
 import java.io.IOException;
 

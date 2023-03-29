@@ -1,4 +1,4 @@
-package com.example.activity;
+package com.example.homework2rewrite;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.example.homework2rewrite.R;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

@@ -1,11 +1,10 @@
-package com.example.activity;
+package com.example.homework2rewrite;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.example.homework2rewrite.R;
 
 public class MediaUtil {
     public static long getImageId(Activity activity) {

@@ -37,4 +37,10 @@ public class MyRepository
         } );
         return mDao.getMediaEntityById(id);
     }
+
+    public void setImageUri(MediaEntity mediaEntity, String imageUri ){
+        AppDatabase.databaseWriteExecutor.execute( ()->{
+            mediaEntity.setImageUri(imageUri);
+        } );
+    }
 }

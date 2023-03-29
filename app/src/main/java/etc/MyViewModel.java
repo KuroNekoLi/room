@@ -22,8 +22,12 @@ public class MyViewModel extends AndroidViewModel
         return mAllMediaEntities;
     }
 
-    long insert(MediaEntity mediaEntity){
+    public long insert( MediaEntity mediaEntity ){
         mRepository.insert( mediaEntity );
         return mRepository.insert( mediaEntity );
+    }
+
+    public void setImageUri(MediaEntity mediaEntity, String imageUri){
+        mRepository.setImageUri( mediaEntity,imageUri );
     }
 }

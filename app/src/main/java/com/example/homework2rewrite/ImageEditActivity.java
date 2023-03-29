@@ -1,11 +1,10 @@
-package com.example.activity;
+package com.example.homework2rewrite;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
-import com.example.homework2rewrite.R;
 
 
 import androidx.appcompat.app.AppCompatActivity;

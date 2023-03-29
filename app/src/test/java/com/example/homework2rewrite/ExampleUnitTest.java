@@ -1,4 +1,4 @@
-package com.example.activity;
+package com.example.homework2rewrite;
 
 import org.junit.Test;
 
