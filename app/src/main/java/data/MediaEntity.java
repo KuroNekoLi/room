@@ -15,13 +15,6 @@ public class MediaEntity {
     @ColumnInfo(name = "audio_uri")
     private String audioUri;
 
-    @ColumnInfo(name = "image_brightness")
-    private int brightness;
-
-    public MediaEntity()
-    {
-        this(null,null);
-    }
     public MediaEntity( String imageUri, String audioUri )
     {
         this.id = 0;
@@ -33,27 +26,22 @@ public class MediaEntity {
     {
         return id;
     }
-
     public void setId( long id )
     {
         this.id = id;
     }
-
     public String getImageUri()
     {
         return imageUri;
     }
-
     public void setImageUri( String imageUri )
     {
         this.imageUri = imageUri;
     }
-
     public String getAudioUri()
     {
         return audioUri;
     }
-
     public void setAudioUri( String audioUri )
     {
         this.audioUri = audioUri;
